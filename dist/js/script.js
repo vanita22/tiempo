@@ -10253,9 +10253,11 @@ return jQuery;
 } );
 
 $(document).ready(function(){ 
+    var latitud = 46.9435766;
+    var longitud = 7.4349673;
     
     $.ajax({
-        url: 'https://api.darksky.net/forecast/abdc2567013fbe4c13e25ed3fd8867f3/-33.5762278,-70.64466470000002',
+        url: 'https://api.darksky.net/forecast/abdc2567013fbe4c13e25ed3fd8867f3/'+ latitud +','+ longitud +'',
         type: 'GET',
         dataType: 'jsonp'   
     })
