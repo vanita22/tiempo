@@ -1,0 +1,36 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif; 
+	background-color: black;
+}
+
+#dibujo{
+	margin-top:5%;
+	height: auto;
+	img{
+		width: 900px;
+		height: auto;
+	}	
+	#datos{
+		width: 70%;
+		height:auto;
+		background-color:rgba(255, 255, 255, 0.8);
+		padding: 5px;
+		border: 1px solid black;
+		align-items: center;
+    	justify-content: center;
+    	margin-top: -140%;
+    	position: relative;
+    	img{
+    		width: 40px;
+    		height: 40px;
+    	}
+    	.btn{
+			background-color: rgba(255, 255, 255, 0.6);
+			width: auto;
+			height: auto;
+			padding: 5px;
+			border: 1px solid black;
+		}
+	}
+}
